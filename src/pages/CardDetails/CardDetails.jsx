@@ -5,10 +5,10 @@ import DataCard from "./DataCard";
 
 const CardDetails = () => {
    
-    const [card, setCard] = useState([]);
+    const [card, setCard] = useState({});
     const { id } = useParams();
     const cards = useLoaderData();
-  
+
 
     useEffect(() => {
         const findCard = cards.find(card => card.id == id);

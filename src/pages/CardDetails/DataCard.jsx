@@ -1,24 +1,46 @@
-/* eslint-disable no-unused-vars */
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+
 /* eslint-disable react/prop-types */
 const DataCard = ({card}) => {
-  const {id,picture, title, category, category_bg, card_bg, text_button_bg, description, price} = card;
+  const {id,picture, category, category_bg, description, price} = card;
+//localstorage
+ const handleDonate = (id) => {
+  const addedDonateArray=[];
+  const donateCards=JSON.parse(localStorage.getItem('donation'))
 
- const handleDonate=()=>{
-  console.log('dtjg')
+  //jokhon null thakbe
+  if(!donateCards){
+    addedDonateArray.push(card)
+    localStorage.setItem('donation',JSON.stringify(addedDonateArray))
+    toast('Successfully donation completed!!!')
+  }
+  else{
+    const isExists=donateCards.find(card => card.id == id)
+    if(!isExists){
+      addedDonateArray.push(...donateCards,card)
+      localStorage.setItem('donation',JSON.stringify(addedDonateArray))
+      toast('Successfully donation completed!!!')
+    }
+    else{
+      toast('Already added!!')
+    }
+  }
+  
  }
  const titleBg={
   backgroundColor:category_bg
   }
   return (
-    <div className="flex items-center justify-center w-[400px] lg:w-[1000px] mx-auto">
-      <div className="flex flex-col rounded-xl bg-white text-gray-700 shadow-md">
+    <div className="flex items-center justify-center w-[400px] lg:w-[800px] mx-auto">
+    <div className="flex flex-col rounded-xl bg-white text-gray-700 shadow-md">
         <div className="m-0 overflow-hidden rounded-none text-gray-700 shadow-none">
-          <img className="w-[400px] h-[200px] lg:w-[1000px] lg:h-[400px]"
+          <img className="w-[400px] h-[200px] lg:w-[800px] lg:h-[400px]"
           src={picture} 
           alt="ui/ux review check" 
           />
-         <div className="">
-         <button style={titleBg} className="btn absolute ml-6 mt-6 text-white" type="button">Donate {price}</button>
+         <div>
+         <button onClick={()=>handleDonate(id)} style={titleBg} className="btn z-10 absolute ml-6 mt-6 cursor-pointer hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] text-white">Donate {price}</button>
         
           <div className="relative -mt-24 opacity-30 bg-black h-24">
 
@@ -34,6 +56,7 @@ const DataCard = ({card}) => {
           </p>
         </div>
       </div>
+      <ToastContainer/>
     </div>
   );
 };
