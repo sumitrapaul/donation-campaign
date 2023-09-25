@@ -5,76 +5,76 @@
       "title": "Health",
       "category": "Clean water for children",
       "category_bg": "#0052FF",
-      "card_bg": "#93c5fd",
+      "card_bg": "#bae6fd",
       "text_button_bg": "#7dd3fc",
       "description": "Clean water is essential for growing children. It satisfies their thirst, replaces their lost fluids and doesn't add empty calories to their diets.",
-      "price": "$290.00"
+      "price": "$290"
     },
     {
       "id": 2,
-      "picture": "https://i.ibb.co/kJ14NGk/download-3.jpg",
+      "picture": "https://i.ibb.co/F0d5tbf/10-Benefits-Showing-Why-Education-Is-Important-to-Our-Society.jpg",
       "title": "Education",
       "category": "Good education",
       "category_bg": "#FF444A",
       "card_bg": "#fecaca",
       "text_button_bg": "#fca5a5",
       "description": "Education is about learning skills and knowledge. It also means helping people to learn how to do things and support them to think about what they learn.",
-      "price": "$290.00"
+      "price": "$290"
     },
     { 
       "id": 3,
-      "picture": "https://i.ibb.co/VVyY8TQ/images-9.jpg",
+      "picture": "https://i.ibb.co/DYw1cbS/clothing-drive.jpg",
       "title": "Clothing",
       "category": "Used clothing drive",
       "category_bg": "#3f6212",
       "card_bg": "#d9f99d",
       "text_button_bg": "#a3e635",
       "description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people.",
-      "price": "$290.00"
+      "price": "$290"
     },
     {
       "id": 4,
-      "picture": "https://i.ibb.co/f8Y9fN4/images-10.jpg",
+      "picture": "https://i.ibb.co/1sGM2SF/healthy-eating-ingredients-1296x728-header.webp",
       "title": "Food",
       "category": "Better food for everyone",
       "category_bg": "#F87147",
       "card_bg": "#Fed7aa",
       "text_button_bg": "#fdba74",
       "description": "Eating a wide variety of nutritious foods, including fruit, vegetables, nuts, seeds, and lean protein can help support your overall health.",
-      "price": "$290.00"
+      "price": "$290"
     },
     {
       "id": 5,
-      "picture": "https://i.ibb.co/f8Y9fN4/images-10.jpg",
+      "picture": "https://i.ibb.co/1sGM2SF/healthy-eating-ingredients-1296x728-header.webp",
       "title": "Food",
       "category": "Better food for everyone",
       "category_bg": "#F87147",
       "card_bg": "#Fed7aa",
       "text_button_bg": "#fdba74",
       "description": "Eating a wide variety of nutritious foods, including fruit, vegetables, nuts, seeds, and lean protein can help support your overall health.",
-      "price": "$290.00"
+      "price": "$290"
     },
     { 
       "id": 6,
-      "picture": "https://i.ibb.co/VVyY8TQ/images-9.jpg",
+      "picture": "https://i.ibb.co/DYw1cbS/clothing-drive.jpg",
       "title": "Clothing",
       "category": "Used clothing drive",
       "category_bg": "#3f6212",
       "card_bg": "#d9f99d",
       "text_button_bg": "#a3e635",
       "description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people.",
-      "price": "$290.00"
+      "price": "$290"
     },
     {
       "id": 7,
-      "picture": "https://i.ibb.co/kJ14NGk/download-3.jpg",
+      "picture": "https://i.ibb.co/F0d5tbf/10-Benefits-Showing-Why-Education-Is-Important-to-Our-Society.jpg",
       "title": "Education",
       "category": "Good education",
       "category_bg": "#FF444A",
       "card_bg": "#fecaca",
       "text_button_bg": "#fca5a5",
       "description": "Education is about learning skills and knowledge. It also means helping people to learn how to do things and support them to think about what they learn.",
-      "price": "$290.00"
+      "price": "$290"
     },
     {
       "id": 8,
@@ -82,10 +82,10 @@
       "title": "Health",
       "category": "Clean water for children",
       "category_bg": "#0052FF",
-      "card_bg": "#93c5fd",
+      "card_bg": "#bae6fd",
       "text_button_bg": "#7dd3fc",
       "description": "Clean water is essential for growing children. It satisfies their thirst, replaces their lost fluids and doesn't add empty calories to their diets.",
-      "price": "$290.00"
+      "price": "$290"
     },
     {
       "id": 9,
@@ -93,43 +93,43 @@
       "title": "Health",
       "category": "Clean water for children",
       "category_bg": "#0052FF",
-      "card_bg": "#93c5fd",
+      "card_bg": "#bae6fd",
       "text_button_bg": "#7dd3fc",
       "description": "Clean water is essential for growing children. It satisfies their thirst, replaces their lost fluids and doesn't add empty calories to their diets.",
-      "price": "$290.00"
+      "price": "$290"
     },
     {
       "id": 10,
-      "picture": "https://i.ibb.co/kJ14NGk/download-3.jpg",
+      "picture": "https://i.ibb.co/F0d5tbf/10-Benefits-Showing-Why-Education-Is-Important-to-Our-Society.jpg",
       "title": "Education",
       "category": "Good education",
       "category_bg": "#FF444A",
       "card_bg": "#fecaca",
       "text_button_bg": "#fca5a5",
       "description": "Education is about learning skills and knowledge. It also means helping people to learn how to do things and support them to think about what they learn.",
-      "price": "$290.00"
+      "price": "$290"
     },
     { 
       "id": 11,
-      "picture": "https://i.ibb.co/VVyY8TQ/images-9.jpg",
+      "picture": "https://i.ibb.co/DYw1cbS/clothing-drive.jpg",
       "title": "Clothing",
       "category": "Used clothing drive",
       "category_bg": "#3f6212",
       "card_bg": "#d9f99d",
       "text_button_bg": "#a3e635",
       "description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people.",
-      "price": "$290.00"
+      "price": "$290"
     },
     {
       "id": 12,
-      "picture": "https://i.ibb.co/f8Y9fN4/images-10.jpg",
+      "picture": "https://i.ibb.co/1sGM2SF/healthy-eating-ingredients-1296x728-header.webp",
       "title": "Food",
       "category": "Better food for everyone",
       "category_bg": "#F87147",
       "card_bg": "#Fed7aa",
       "text_button_bg": "#fdba74",
       "description": "Eating a wide variety of nutritious foods, including fruit, vegetables, nuts, seeds, and lean protein can help support your overall health.",
-      "price": "$290.00"
+      "price": "$290"
     }
   ]
   

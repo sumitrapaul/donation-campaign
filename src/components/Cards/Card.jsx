@@ -22,7 +22,7 @@ const Card = ({ card }) => {
       backgroundColor:card_bg
     }
   return (
-    <div>
+
     <Link to={`/cards/${id}`}>
     <div style={cardStyle} className="bg-white text-gray-700 shadow-md">
         <div className="m-0 overflow-hidden text-gray-700">
@@ -44,7 +44,7 @@ const Card = ({ card }) => {
         </div>
       </div>
     </Link>
-    </div>
+   
   );
 };
 

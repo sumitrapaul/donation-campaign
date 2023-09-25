@@ -31,9 +31,9 @@ const router=createBrowserRouter([
         element:<Statistics></Statistics>
       },
       {
-        path:'/phones/:id',
+        path:'/cards/:id',
         element:<CardDetails></CardDetails>,
-        loader:() =>fetch('/cards.json')
+        loader:() => fetch('/cards.json')
       }
     ]
     
