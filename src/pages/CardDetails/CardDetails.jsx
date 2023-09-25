@@ -16,7 +16,7 @@ const CardDetails = () => {
       
       }, [id, cards]);
     return (
-        <div className="max-w-[1300px] mx-auto">
+        <div className="max-w-[500px] h-[100px] lg:max-w-[1300px] mx-auto">
            <DataCard card={card}></DataCard> 
         </div>
     );
