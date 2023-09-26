@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 
-const Banner = ({searchItem,setSearchItem,filterItems}) => {
+// const Banner = ({searchItem,setSearchItem,filterItems}) => {
+const Banner = () => {
    
         return (
         <div className="">
@@ -11,11 +12,13 @@ const Banner = ({searchItem,setSearchItem,filterItems}) => {
       <h1 className="mb-5 text-2xl font-bold">I Grow By Helping People In Need</h1>
       <div className="flex items-center">
     <div className="join">
-      <input onChange={(e) => setSearchItem(e.target.value)} className="input input-bordered join-item w-[350px]" placeholder="Search here...." value={searchItem}/>
+      <input  className="input input-bordered join-item w-[350px]" placeholder="Search here...." />
+      {/* <input onChange={(e) => setSearchItem(e.target.value)} className="input input-bordered join-item w-[350px]" placeholder="Search here...." value={searchItem}/> */}
     </div>
   
   <div>
-    <button onClick={filterItems} className="btn join-item bg-red-600 text-white">Search</button>
+    <button className="btn join-item bg-red-600 text-white">Search</button>
+    {/* <button onClick={filterItems} className="btn join-item bg-red-600 text-white">Search</button> */}
   </div>
 </div>
     </div>
