@@ -26,14 +26,22 @@ const Donation = () => {
     return (
         <div>
            {
-            noFound ? <p className="h-[80vh] flex justify-center items-center">{noFound}</p> : <div>
-                {donations.length > 0 && <button onClick={handleDeteleDonation} className="px-5 rounded-lg m-4 py-3 bg-green-700 text-white block mx-auto">Delete Donation</button>}
+            noFound ? <p className="h-[80vh] flex justify-center items-center">{noFound}</p> : 
+            <div> {donations.length > 0 && (<button onClick={handleDeteleDonation} className="px-5 rounded-lg m-4 py-3 bg-green-700 text-white block mx-auto">Delete Donation</button>)}
             <div className="grid grid-cols-2 gap-5">
                 {
-                    donations.map(card => <DonationCard key={card.id} card={card}></DonationCard>)
+                    isShow ? donations.map((card) => <DonationCard key={card.id} card={card}></DonationCard>) : 
+                    donations.slice(0,3).map(card => <DonationCard key={card.id} card={card}></DonationCard>)
+                    
                 }
             </div>
-            <button onClick={() => setIsShow(!isShow)} className="px-5 rounded-lg m-4 py-3 bg-green-700 text-white block mx-auto">See All</button>
+          {
+            donations.length >= 4 &&
+                <button onClick={() => setIsShow(!isShow)} className="px-5 rounded-lg m-4 py-3 bg-green-700 text-white block mx-auto">
+                {isShow ? "See Less" : "See All"}
+                </button>
+            
+          }
             </div>
 
            }
