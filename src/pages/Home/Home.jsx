@@ -1,13 +1,27 @@
 import { useLoaderData } from "react-router-dom";
 import Cards from "../../components/Cards/Cards";
 import Banner from "../../components/Header/Banner/Banner";
+import { useState } from "react";
 
 
-const Home = () => {
+const Home = ({cards}) => {
     const cards=useLoaderData()
+    // 
+const [searchItem,setSearchItem]=useState('')
+const [filterdItem,setFilterdItem]=useState(cards)
+
+const filterItems = () =>{
+    const filtered=cards.filter((card)=> card.category.toLowerCase().includes(searchItem.toLowerCase()))
+    setFilterdItem(filtered)
+}
+
+    // 
     return (
         <div>
-            <Banner></Banner>
+            <Banner searchItem={searchItem} setSearchItem={setSearchItem} filterItems={filterItems}>
+            
+            </Banner>
+            <Cards cards={filterdItem}></Cards>
             <Cards cards={cards}></Cards>
         </div>
     );
