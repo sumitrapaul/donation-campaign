@@ -32,10 +32,10 @@ const DataCard = ({card}) => {
   backgroundColor:category_bg
   }
   return (
-    <div className="flex items-center justify-center w-[400px] lg:w-[800px] mx-auto">
+    <div className="flex items-center justify-center w-[400px] lg:w-[1300px] mx-auto">
     <div className="flex flex-col rounded-xl bg-white text-gray-700 shadow-md">
         <div className="m-0 overflow-hidden rounded-none text-gray-700 shadow-none">
-          <img className="w-[400px] h-[200px] lg:w-[800px] lg:h-[400px]"
+          <img className="w-[400px] h-[200px] lg:w-[1300px] lg:h-[600px]"
           src={picture} 
           alt="ui/ux review check" 
           />

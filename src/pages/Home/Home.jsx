@@ -31,9 +31,9 @@ const Home = () => {
             <div className="">
                 <div className="hero min-h-screen w-[400px] md:w-[600px] lg:w-[1300px] mx-auto" style={{backgroundImage: 'url(https://i.ibb.co/Kh3wVQj/banner.jpg)'}}>
                 <div className="hero-overlay bg-white bg-opacity-90"></div>
-                <div className="hero-content text-center text-black">
-                    <div className="w-[300px] md:max-w-md lg:w-[400px]">
-                    <h1 className="mb-5 text-3xl font-bold">I Grow By Helping People In Need</h1>
+                <div className="text-center text-black">
+                    <div className="w-[300px] md:max-w-md lg:w-[600px] mx-auto">
+                    <h1 className="mb-5 text-2xl font-bold">I Grow By Helping People In Need</h1>
                     <div className="flex items-center">
                         <form onSubmit={handleSearch} className="join w-[200px] md:w-[300px] lg:w-[500px]">
                             <input className="input input-bordered join-item w-[350px]" name="searchValue" placeholder="Search here...." />
