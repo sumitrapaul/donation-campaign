@@ -4,16 +4,23 @@ import { VictoryPie} from 'victory-pie';
 
 const PieChart = ({value}) => {
   
-   const rem=(100-value).toFixed(2)
+  let rem=(100.00-value).toFixed(2)
+  let rems = parseFloat(rem)
+
+  let col=(100-(100-value)).toFixed(2)
+  let cols=parseFloat(col)
     
   return (
     <div>
       <VictoryPie
             data={[
-              {x:`${value}%`,y:value},
-              {x:`${rem}%`,y:rem},
+              {x:`${col}%`,y:cols},
+              {x:`${rem}%`,y:rems},
             ]}
             colorScale={['#00C49F','#FF444A']}
+            
+            width={350}
+            padding={70}
             
       />
     </div>
